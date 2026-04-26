@@ -1,1 +1,1 @@
-gcc -march=core-avx2 -mavx axpy.c -o axpy.x -fopenmp
+gcc -march=native -mavx axpy.c -o axpy.x -fopenmp
